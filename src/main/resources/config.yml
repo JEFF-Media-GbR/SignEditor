@@ -1,0 +1,10 @@
+# Allows players to edit signs using /editsign and to use color codes.
+# /editsign is only allowed if the player would be able to break the sign.
+
+# Commands:
+#  /editsign [text] - Edit the sign text you are looking at. Use \n for a new line and & for color codes
+#                     When looking at a sign, enter /editsign and hit tab to autocomplete the existing text (useful if you only want to add colors, etc)
+
+# Permissions:
+#  signeditor.edit:   Allows to use /editsign
+#  signeditor.colors: Allows to use colors during /editsign and while normally creating signs

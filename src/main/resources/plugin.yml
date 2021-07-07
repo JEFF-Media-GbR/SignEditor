@@ -1,0 +1,20 @@
+name: SignEditor
+main: de.jeff_media.signeditor.SignEditor
+version: ${project.version}
+description: "Easily edit signs"
+author: mfnalex
+
+depend:
+
+softdepend:
+
+permissions:
+  signeditor.edit:
+    description: Allows to use the /signedit command
+  signeditor.colors:
+    description: Allows to use color codes
+
+commands:
+  editsign:
+    description: Edit the sign you are looking at
+    permission: signeditor.edit
