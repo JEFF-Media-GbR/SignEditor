@@ -3,6 +3,7 @@ main: de.jeff_media.signeditor.SignEditor
 version: ${project.version}
 description: "Easily edit signs"
 author: mfnalex
+api-version: "1.13"
 
 depend:
 
